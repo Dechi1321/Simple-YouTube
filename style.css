@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Open+Sans:ital,wght@0,800;1,800&family=Oswald:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-position: 100%;
+    background-color: black;
+}
+
+header{
+    background-color: #0F0F0F;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.nav-start{
+    height: 50px;
+    background-color: 0F0F0F;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: rgb(185, 63, 63);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.Profile{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.push{
+    height: 30px; 
+    width: 30px; 
+    filter: invert(1);
+}
+
+.video{
+    height: 30px; 
+    width: 30px; 
+    filter: invert(1);
+}
+
+.You{
+    height: 25px;
+}
+.YouTube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-end{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+}
+.Create{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.Notification{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 300px;
+    height: 40px;
+    background-color: #1f1e1e;
+    border-radius: 30px;
+}
+
+.VideoYou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.Prewiu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+main{
+    background-color: #0F0F0F;
+    height: 100%
+}
+.container{
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 200px;
+}
+
+span{
+    font-weight: 900;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.name{
+    color: aliceblue;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+.chanel{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.chanel1{
+    height: 40px;
+    width: 40px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.follow{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 120px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+}
+.like{
+    height: 40px;
+    width: 120px;
+    margin-left: 500px;
+    background-color: #3F3F3F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likeee{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(1);
+}
+
+.nrav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
